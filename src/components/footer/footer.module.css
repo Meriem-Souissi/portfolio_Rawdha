@@ -1,0 +1,32 @@
+.footer_container {
+  background-color: #fcd6c6;
+  color: #6f6356;
+  padding: 30px 6%;
+  text-align: right;
+}
+.footer_infos {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 40px 0px 20px;
+  border-bottom: 1px solid #6f6356;
+}
+.contact_info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.copy_right {
+  text-align: center !important;
+  padding: 20px 0px 0px;
+}
+@media (max-width: 630px) {
+  .footer_container h2 {
+    text-align: center;
+  }
+  .footer_infos {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

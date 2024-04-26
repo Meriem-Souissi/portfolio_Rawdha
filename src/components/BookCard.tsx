@@ -7,7 +7,7 @@ type BookCardProps = {
     image: any;
     title: string;
     author: string;
-    publish: string;
+    publish?: string;
   };
 };
 
@@ -22,12 +22,11 @@ function BookCard(props: BookCardProps) {
       />
 
       <div className={styles.book_infos}>
-        <h4>{props.book.title}</h4>
-        <h6>{props.book.author}</h6>
+        <h4 className={styles.book_title}>{props.book.title}</h4>
+        <h6 className={styles.book_author}>{props.book.author}</h6>
       </div>
-      <div className={styles.book_infos}></div>
 
-      <p>{props.book.publish}</p>
+      {/* <p>{props.book.publish}</p> */}
     </div>
   );
 }
