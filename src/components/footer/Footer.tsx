@@ -7,7 +7,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 const Footer = () => {
   return (
     <div className={styles.footer_container}>
-      <h2>للإتصال بنا</h2>
+      <h2>تواصل معنا</h2>
       <div className={styles.footer_infos}>
         <div className={styles.contact_info}>
           <h4> +216 23 207 594</h4>
