@@ -45,7 +45,7 @@ function MyWork() {
     {
       image: book5,
       title: "قصة عشق في الزمن الضائع",
-      author: "معز نجيمة"
+      author: "معز نعيجة"
       // publish: "book1 book1"
     },
     {
@@ -98,7 +98,7 @@ function MyWork() {
     },
     {
       image: book14,
-      title: "في متهات متون علي الدوعاجي",
+      title: "في متاهات متون علي الدوعاجي",
       author: "ضياء بوسالمي"
       // publish: "book1 book1"
     }
